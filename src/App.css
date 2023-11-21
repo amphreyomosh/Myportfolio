@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  font-size: 20px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav a:hover {
+  border-bottom: 2px solid black;
+  transform: scale(1.09);
+}
